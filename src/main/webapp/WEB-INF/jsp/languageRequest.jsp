@@ -8,6 +8,12 @@
 </head>
 
 <body>
+
+	<span><a href="./hello"> hello</a></span>
+	<span><a href="./result"> language(固定)</a></span>
+	<span><a href="./languageRequest"> language（入力）</a></span>
+	<span><a href="./sentimentresult"> Sentiment(固定)</a></span>
+	<span><a href="./sentimentRequest"> Sentiment(入力、強調)</a></span>
 <h1>CognitiveServiceを使うサイト</h1>
 
 <h3>調べたい文字列を教えてください</h3>

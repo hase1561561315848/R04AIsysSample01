@@ -13,6 +13,12 @@
 %>
 
 <body>
+
+	<span><a href="./hello"> hello</a></span>
+	<span><a href="./result"> language(固定)</a></span>
+	<span><a href="./languageRequest"> language（入力）</a></span>
+	<span><a href="./sentimentresult"> Sentiment(固定)</a></span>
+	<span><a href="./sentimentRequest"> Sentiment(入力、強調)</a></span>
 <H1><%= message %></H1>
 </body>
 </html>
