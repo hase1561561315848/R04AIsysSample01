@@ -8,10 +8,6 @@
 </head>
 
 <body>
-<<<<<<< HEAD
-=======
-	
->>>>>>> branch 'master' of https://github.com/hase1561561315848/R04AIsysSample01.git
 	<span><a href="./hello"> hello</a></span>
 	<span><a href="./result"> language(固定)</a></span>
 	<span><a href="./languageRequest"> language（入力）</a></span>
