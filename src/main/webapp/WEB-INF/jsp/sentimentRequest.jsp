@@ -8,6 +8,8 @@
 </head>
 
 <body>
+	
+	<span><a href="./hello"> hello</a></span>
 	<span><a href="./result"> language(固定)</a></span>
 	<span><a href="./languageRequest"> language（入力）</a></span>
 	<span><a href="./sentimentresult"> Sentiment(固定)</a></span>
