@@ -54,11 +54,11 @@ public class Sentiment {
 		JsonReader reader = null;
 
 		try {
+			reader = WebApiConnector.postJsonReader(url, map, jsonData);
+		}catch(Exception e) {
 			InetSocketAddress proxy = new InetSocketAddress("172.17.0.2", 80);
 
 			reader = WebApiConnector.postJsonReader(url, proxy, map, jsonData);
-		}catch(Exception e) {
-			reader = WebApiConnector.postJsonReader(url, map, jsonData);
 			
 		}
 				
