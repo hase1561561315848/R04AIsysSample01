@@ -50,11 +50,18 @@ public class Sentiment {
 		src.documents[0] = doc;
 
 		String jsonData = new Gson().toJson(src);
+		
+		JsonReader reader = null;
 
-		InetSocketAddress proxy = new InetSocketAddress("172.17.0.2", 80);
+		try {
+			InetSocketAddress proxy = new InetSocketAddress("172.17.0.2", 80);
 
-//		JsonReader reader = WebApiConnector.postJsonReader(url, proxy, map, jsonData);
-		JsonReader reader = WebApiConnector.postJsonReader(url, map, jsonData);
+			reader = WebApiConnector.postJsonReader(url, proxy, map, jsonData);
+		}catch(Exception e) {
+			reader = WebApiConnector.postJsonReader(url, map, jsonData);
+			
+		}
+				
 		Language1 message = null;
 		if (reader != null) {
 			message = gson.fromJson(reader, Language1.class);
