@@ -17,7 +17,7 @@
 <h1>sentiment用</h1>
 <h3>調べたい文字列を教えてください</h3>
 <form method="POST" action="./sentimentresult">
-<input type="TEXT" name="string" />
+<textarea name="string" cols="30" rows="5" /></textarea>
 <input type="submit" />
 </form>
 </body>

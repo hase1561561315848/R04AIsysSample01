@@ -18,7 +18,7 @@
 
 <h3>調べたい文字列を教えてください</h3>
 <form method="POST" action="./result">
-<input type="TEXT" name="string" />
+<textarea name="string" cols="30" rows="5" /></textarea>
 <input type="submit" />
 </form>
 </body>
