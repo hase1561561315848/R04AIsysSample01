@@ -28,16 +28,13 @@ Optional<String> string = Optional.ofNullable((String) request.getAttribute("str
 	</H3>
 	<H3>
 		POSITIVE：<%=message1.orElse("ERROR")%>
-		％
 	</H3>
 	<H3>
 		NEUTRAL：<%=message2.orElse("ERROR")%>
-		％
 	</H3>
 
 	<H3>
 		NEGATIVE：<%=message3.orElse("ERROR")%>
-		％
 	</H3>
 
 </body>
